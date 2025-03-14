@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MuzeiWebSource</string>
+    <string name="provider_name">Web Source</string>
+    <string name="provider_description">Downloads a wallpaper from provided URL</string>
+</resources>
