@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MuzeiWebSource</string>
     <string name="provider_name">Web Source</string>
-    <string name="provider_description">Downloads a wallpaper from provided URL</string>
+    <string name="provider_description">Displays a wallpaper from the provided URL</string>
+    <string name="web_source_prefs">com.google.android.apps.muzei.websource.PREFS</string>
+    <string name="saved_url_key">com.google.android.apps.muzei.websource.SAVED_URL_KEY</string>
 </resources>
