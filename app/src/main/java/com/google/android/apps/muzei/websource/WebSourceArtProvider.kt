@@ -38,9 +38,19 @@ class WebSourceArtProvider : MuzeiArtProvider() {
         }
     }
 
+    override fun isArtworkValid(artwork: Artwork): Boolean {
+        return artwork.dateAdded.after(oneDayAgo())
+    }
+
     private fun oneSecondsAgo(): Date {
         val cal: Calendar = Calendar.getInstance()
         cal.add(Calendar.SECOND, -1)
+        return cal.time
+    }
+
+    private fun oneDayAgo(): Date {
+        val cal: Calendar = Calendar.getInstance()
+        cal.add(Calendar.DATE, -1)
         return cal.time
     }
 }
