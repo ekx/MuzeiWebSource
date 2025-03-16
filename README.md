@@ -6,7 +6,7 @@ MuzeiWebSource is a simple Android application that extends the functionality of
 Currently there isn't a prebuilt APK available, so just clone and run in Android Studio.
 
 ## Usage
-Open the Muzei app, select "Web Source" as your source, and then paste your URL.
+Open the Muzei app, select "Web Source" as your source, press "Settings" and then paste your URL.
 
 ## License
 - [MIT](https://github.com/ekx/MuzeiWebSource/blob/master/LICENSE)
